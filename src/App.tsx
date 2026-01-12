@@ -5,6 +5,7 @@ import Testimonials from './components/Testimonials';
 import Process from './components/Process';
 import ContactForm from './components/ContactForm';
 import Footer from './components/Footer';
+import FloatingWhatsApp from './components/FloatingWhatsApp';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Testimonials />
       <ContactForm />
       <Footer />
+      <FloatingWhatsApp />
     </div>
   );
 }

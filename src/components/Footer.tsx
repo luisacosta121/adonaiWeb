@@ -75,17 +75,36 @@ export default function Footer() {
             <ul className="space-y-3">
               <li className="flex items-start space-x-3">
                 <MapPin className="w-5 h-5 text-[#007bff] mt-1 flex-shrink-0" />
-                <span className="text-gray-400">
+                <a
+                  href="https://maps.google.com/?q=12982+SW+132nd+Ave,+Miami,+FL+33186"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-gray-400 hover:text-[#007bff] transition-colors hover:underline"
+                >
                   12982 SW 132nd Ave, Miami, FL 33186<br />USA
-                </span>
+                </a>
               </li>
               <li className="flex items-center space-x-3">
                 <Phone className="w-5 h-5 text-[#007bff] flex-shrink-0" />
-                <span className="text-gray-400">+1 (786) 554-4666</span>
+                <a
+                  href="https://wa.me/17865544666"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-gray-400 hover:text-[#007bff] transition-colors hover:underline"
+                >
+                  +1 (786) 554-4666
+                </a>
               </li>
               <li className="flex items-center space-x-3">
                 <Mail className="w-5 h-5 text-[#007bff] flex-shrink-0" />
-                <span className="text-gray-400">adonaiprecisionmachining@gmail.com</span>
+                <a
+                  href="https://mail.google.com/mail/?view=cm&fs=1&to=adonaiprecisionmachining@gmail.com&subject=Proyecto%20de%20Mecanizado%20de%20Precisi%C3%B3n"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-gray-400 hover:text-[#007bff] transition-colors hover:underline"
+                >
+                  adonaiprecisionmachining@gmail.com
+                </a>
               </li>
             </ul>
           </div>
