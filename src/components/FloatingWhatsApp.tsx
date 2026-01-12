@@ -3,7 +3,7 @@ import whatsappIcon from '../assets/whatsappIcon.svg';
 
 export default function FloatingWhatsApp() {
   const phoneNumber = '17865544666';
-  const message = 'Hola, me gustaría conocer más sobre sus servicios de mecanizado de precisión.';
+  const message = 'Hello, I would like to learn more about your precision machining services.';
 
   const handleWhatsAppClick = () => {
     const encodedMessage = encodeURIComponent(message);
