@@ -34,7 +34,7 @@ export default function Hero() {
         >
           <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold text-white mb-6 tracking-tight">
             PRECISION ENGINEERING
-            <span className="block text-[#007bff] mt-2">TAILORED FOR YOU</span>
+            <span className="block text-white mt-2">TAILORED FOR YOU</span>
           </h1>
         </motion.div>
 
@@ -45,9 +45,7 @@ export default function Hero() {
           className="text-xl sm:text-2xl text-gray-300 mb-12 max-w-3xl mx-auto"
         >
           Specialists in unique parts and precision-machined prototypes.
-          <span className="block mt-2 text-[#007bff] font-semibold">
             Send us your blueprint and we'll make it reality.
-          </span>
         </motion.p>
 
         <motion.button

@@ -43,7 +43,7 @@ export default function ContactForm() {
           className="text-center mb-16"
         >
           <h2 className="text-4xl sm:text-5xl font-bold text-white mb-4 tracking-tight">
-            REQUEST YOUR <span className="text-[#007bff]">QUOTE</span>
+            REQUEST YOUR <span className="text-white">QUOTE</span>
           </h2>
           <p className="text-gray-400 text-lg">
             Tell us about your project and we'll respond within 48 hours

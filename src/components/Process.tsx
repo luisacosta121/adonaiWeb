@@ -37,10 +37,10 @@ export default function Process() {
           className="text-center mb-16"
         >
           <h2 className="text-4xl sm:text-5xl font-bold text-white mb-6 tracking-tight">
-            ABOUT <span className="text-[#007bff]">US</span>
+            ABOUT <span className="text-white">US</span>
           </h2>
           <p className="text-gray-300 text-lg sm:text-xl max-w-3xl mx-auto leading-relaxed">
-            At <span className="text-[#007bff] font-bold">Adonai Precision Machining</span> we don't sell catalog parts.
+            At Adonai Precision Machining we don't sell catalog parts.
             <span className="block mt-2">
               We specialize in custom manufacturing: from unique prototypes to short runs of high precision.
             </span>
@@ -55,7 +55,7 @@ export default function Process() {
             transition={{ duration: 0.6 }}
             className="text-3xl font-bold text-center text-white mb-12"
           >
-            OUR <span className="text-[#007bff]">PROCESS</span>
+            OUR PROCESS
           </motion.h3>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">

@@ -63,7 +63,7 @@ export default function Testimonials() {
           className="text-center mb-16"
         >
           <h2 className="text-4xl sm:text-5xl font-bold text-white mb-4 tracking-tight">
-            WHAT OUR <span className="text-[#007bff]">CUSTOMERS SAY</span>
+            WHAT OUR <span className="text-white">CUSTOMERS SAY</span>
           </h2>
           <p className="text-gray-400 text-lg">
             Trust built on quality and reliability

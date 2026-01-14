@@ -81,7 +81,7 @@ export default function Gallery() {
           className="text-center mb-16"
         >
           <h2 className="text-4xl sm:text-5xl font-bold text-white mb-4 tracking-tight">
-            OUR <span className="text-[#007bff]">PROJECTS</span>
+            OUR <span className="text-white">PROJECTS</span>
           </h2>
           <p className="text-gray-400 text-lg">
             Precision parts for demanding industries
