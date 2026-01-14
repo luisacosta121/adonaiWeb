@@ -1,6 +1,7 @@
 import { useState } from 'react';
-import { Menu, X, Wrench } from 'lucide-react';
+import { Menu, X } from 'lucide-react';
 import { motion } from 'framer-motion';
+import adonaiLogo from '../assets/adonaiWhiteLogo.svg';
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -20,10 +21,9 @@ export default function Navbar() {
       className="fixed top-0 left-0 right-0 z-50 bg-[#2a2a2a]/90 backdrop-blur-md border-b border-gray-600"
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center justify-between h-16">
-          <div className="flex items-center space-x-2 cursor-pointer" onClick={() => scrollToSection('hero')}>
-            <Wrench className="w-8 h-8 text-[#007bff]" />
-            <span className="text-white font-bold text-lg tracking-tight">ADONAI</span>
+        <div className="flex items-center justify-between h-24">
+          <div className="flex items-center cursor-pointer" onClick={() => scrollToSection('hero')}>
+            <img src={adonaiLogo} alt="ADONAI Logo" className="h-20 w-auto" />
           </div>
 
           <div className="hidden md:flex items-center space-x-8">

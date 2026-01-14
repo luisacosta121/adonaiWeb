@@ -1,5 +1,6 @@
 import { motion } from 'framer-motion';
 import { ChevronDown } from 'lucide-react';
+import adonaiLogo from '../assets/adonaiWhiteLogo.svg';
 
 export default function Hero() {
   const scrollToPresupuesto = () => {
@@ -14,10 +15,12 @@ export default function Hero() {
       <div
         className="absolute inset-0 z-0"
         style={{
-          backgroundImage: 'url(https://images.pexels.com/photos/1108101/pexels-photo-1108101.jpeg?auto=compress&cs=tinysrgb&w=1920)',
-          backgroundSize: 'cover',
+          backgroundImage: `url(${adonaiLogo})`,
+          backgroundSize: '55%',
           backgroundPosition: 'center',
-          backgroundAttachment: 'fixed'
+          backgroundAttachment: 'fixed',
+          backgroundRepeat: 'no-repeat',
+          filter: 'blur(5px)'
         }}
       >
         <div className="absolute inset-0 bg-gradient-to-b from-[#1a1a1a]/90 via-[#252525]/80 to-[#2a2a2a]/95"></div>

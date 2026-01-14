@@ -1,4 +1,5 @@
-import { MapPin, Phone, Mail, Facebook, Instagram, Linkedin, Wrench } from 'lucide-react';
+import { MapPin, Phone, Mail, Facebook, Instagram, Linkedin } from 'lucide-react';
+import adonaiLogo from '../assets/adonaiWhiteLogo.svg';
 
 export default function Footer() {
   const scrollToSection = (id: string) => {
@@ -13,9 +14,8 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-8">
           <div>
-            <div className="flex items-center space-x-2 mb-4">
-              <Wrench className="w-8 h-8 text-[#007bff]" />
-              <span className="text-white font-bold text-lg">ADONAI</span>
+            <div className="flex items-center mb-4">
+              <img src={adonaiLogo} alt="ADONAI Logo" className="h-20 w-auto" />
             </div>
             <p className="text-gray-400 mb-4">
               Fabrication of unique parts and high-precision precision-machined prototypes.
