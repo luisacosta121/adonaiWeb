@@ -43,7 +43,7 @@ export default function Navbar() {
               onClick={() => scrollToSection('presupuesto')}
               className="bg-[#007bff] text-white px-6 py-2 rounded-lg font-bold hover:bg-[#0056b3] transition-all transform hover:scale-105 shadow-lg shadow-[#007bff]/50"
             >
-              REQUEST QUOTE
+              REQUEST QUOTE / COTIZACION
             </button>
           </div>
 
@@ -79,7 +79,7 @@ export default function Navbar() {
               onClick={() => scrollToSection('presupuesto')}
               className="w-full bg-[#007bff] text-white px-6 py-3 rounded-lg font-bold hover:bg-[#0056b3] transition-all"
             >
-              REQUEST QUOTE
+              REQUEST QUOTE / SOLICITAR
             </button>
           </div>
         </motion.div>

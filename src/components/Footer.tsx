@@ -62,11 +62,9 @@ export default function Footer() {
           <div>
             <h3 className="text-white font-bold text-lg mb-4">SERVICES</h3>
             <ul className="space-y-2 text-gray-400">
-              <li>CNC Machining</li>
               <li>Prototypes</li>
               <li>Automotive Parts</li>
               <li>Aerospace Components</li>
-              <li>Short Runs</li>
             </ul>
           </div>
 
@@ -81,7 +79,7 @@ export default function Footer() {
                   rel="noopener noreferrer"
                   className="text-gray-400 hover:text-[#007bff] transition-colors hover:underline"
                 >
-                  12982 SW 132nd Ave, Miami, FL 33186<br />USA
+                  12982 SW 132nd Ave, Miami, FL 33186, USA
                 </a>
               </li>
               <li className="flex items-center space-x-3">

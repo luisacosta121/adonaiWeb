@@ -147,6 +147,17 @@ export default function Gallery() {
               />
             ))}
           </div>
+
+          <div className="flex justify-center mt-8">
+            <a
+              href="https://www.google.com/maps/place/Adonai+Precision+Machining/@25.6469338,-80.4074827,3a,75y,90t/data=!3m8!1e2!3m6!1sAF1QipPfezlNh6yPwn8lkatL9r7tcbr6AaWWb8Ey7IG8!2e10!3e12!6shttps:%2F%2Flh3.googleusercontent.com%2Fp%2FAF1QipPfezlNh6yPwn8lkatL9r7tcbr6AaWWb8Ey7IG8%3Dw224-h298-k-no!7i4284!8i5712!4m9!3m8!1s0x88d9c19d7c19eeb5:0x9d5f005dc89d4c9d!8m2!3d25.6469338!4d-80.4074827!10e5!14m1!1BCgIgAQ!16s%2Fg%2F11t76w4c_3?entry=ttu&g_ep=EgoyMDI2MDEyMS4wIKXMDSoKLDEwMDc5MjA2N0gBUAM%3D"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-[#007bff] hover:text-[#0056b3] font-semibold transition-colors"
+            >
+              See all photos on Google
+            </a>
+          </div>
         </div>
       </div>
     </section>

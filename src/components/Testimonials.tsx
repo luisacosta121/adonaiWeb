@@ -126,6 +126,17 @@ export default function Testimonials() {
               />
             ))}
           </div>
+
+          <div className="flex justify-center mt-8">
+            <a
+              href="https://www.google.com/maps/place/Adonai+Precision+Machining/@25.6469338,-80.4074827,17z/data=!4m8!3m7!1s0x88d9c19d7c19eeb5:0x9d5f005dc89d4c9d!8m2!3d25.6469338!4d-80.4074827!9m1!1b1!16s%2Fg%2F11t76w4c_3?entry=ttu&g_ep=EgoyMDI2MDEyMS4wIKXMDSoKLDEwMDc5MjA2N0gBUAM%3D"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-[#007bff] hover:text-[#0056b3] font-semibold transition-colors"
+            >
+              See all reviews on Google
+            </a>
+          </div>
         </div>
       </div>
     </section>

@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { FileText, Calculator, Cog, Package } from 'lucide-react';
+import { FileText, Calculator, Cog } from 'lucide-react';
 import CountUp from './CountUp';
 
 const steps = [
@@ -11,17 +11,12 @@ const steps = [
   {
     icon: Calculator,
     title: 'QUOTE',
-    description: 'Detailed analysis and quote within 24-48 hours'
+    description: 'Detailed quote delivery'
   },
   {
     icon: Cog,
     title: 'FABRICATION',
-    description: 'High-precision CNC machining'
-  },
-  {
-    icon: Package,
-    title: 'DELIVERY',
-    description: 'Quality control and secure shipping'
+    description: 'TEXTO PENDIENTE'
   }
 ];
 
@@ -58,7 +53,7 @@ export default function Process() {
             OUR PROCESS
           </motion.h3>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 justify-items-center items-stretch">
             {steps.map((step, index) => {
               const Icon = step.icon;
               return (
@@ -68,10 +63,10 @@ export default function Process() {
                   whileInView={{ opacity: 1, y: 0 }}
                   viewport={{ once: true }}
                   transition={{ duration: 0.6, delay: index * 0.1 }}
-                  className="relative"
+                  className="relative w-full h-full"
                 >
-                  <div className="bg-gradient-to-br from-[#2a2a2a] to-[#252525] border border-gray-600 rounded-xl p-6 text-center hover:border-[#007bff] transition-all group">
-                    <div className="inline-flex items-center justify-center w-16 h-16 bg-[#007bff]/20 rounded-full mb-4 group-hover:bg-[#007bff]/30 transition-colors">
+                  <div className="bg-gradient-to-br from-[#2a2a2a] to-[#252525] border border-gray-600 rounded-xl p-6 text-center hover:border-[#007bff] transition-all group h-full flex flex-col justify-center">
+                    <div className="flex items-center justify-center w-16 h-16 bg-[#007bff]/20 rounded-full mb-4 group-hover:bg-[#007bff]/30 transition-colors mx-auto">
                       <Icon className="w-8 h-8 text-[#007bff]" />
                     </div>
                     <h4 className="text-white font-bold text-xl mb-3">
@@ -82,11 +77,7 @@ export default function Process() {
                     </p>
                   </div>
 
-                  {index < steps.length - 1 && (
-                    <div className="hidden lg:block absolute top-1/2 -right-4 transform -translate-y-1/2 z-10">
-                      <div className="w-8 h-0.5 bg-gradient-to-r from-[#007bff] to-transparent"></div>
-                    </div>
-                  )}
+
                 </motion.div>
               );
             })}

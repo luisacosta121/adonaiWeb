@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Upload, Send, CheckCircle, X } from 'lucide-react';
+import { Upload, Send, CheckCircle } from 'lucide-react';
 
 export default function ContactForm() {
   const [formData, setFormData] = useState({
@@ -46,7 +46,9 @@ export default function ContactForm() {
             REQUEST YOUR <span className="text-white">QUOTE</span>
           </h2>
           <p className="text-gray-400 text-lg">
-            Tell us about your project and we'll respond within 48 hours
+            Tell us about your project and we'll respond within 48 hours.
+            <br />
+            También se atienden consultas en español.
           </p>
         </motion.div>
 
